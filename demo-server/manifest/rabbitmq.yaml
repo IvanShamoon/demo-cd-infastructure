@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: rabbitmq
-        image: demo-rabbitmq:latest
+        image: demo-rabbitmq:v1
         ports:
         - containerPort: 5672
         - containerPort: 15672
