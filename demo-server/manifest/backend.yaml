@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: demo-backend:v1
+        image: localhost:5000/demo-backend:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
