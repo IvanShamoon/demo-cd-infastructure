@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/IvanShamoon/demo-cd-infastructure
     targetRevision: main
-    path: demo-server  # or wherever your manifests are
+    path: demo-server/manifest
   destination:
     server: https://kubernetes.default.svc
     namespace: default
